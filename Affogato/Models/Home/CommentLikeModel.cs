@@ -13,6 +13,6 @@ namespace Affogato.Models.Home
         public string PostId { get; set; }
 
         [HiddenInput(DisplayValue = false)]
-
+        public int Index { get; set; }
     }
 }
