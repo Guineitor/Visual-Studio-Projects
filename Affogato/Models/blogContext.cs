@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using MongoDB.Driver;
 
-namespace M101DotNet.WebApp.Models
+namespace Affogato.Models
 {
     public class BlogContext
     {
