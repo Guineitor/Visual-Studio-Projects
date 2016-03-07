@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Web;
 using MongoDB.Driver;
+using Affogato.Models.Account;
 
 namespace Affogato.Models
 {

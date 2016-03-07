@@ -9,11 +9,16 @@ namespace Affogato.Models.Home
         public string Title { get; set; }
 
         [Required]
+        [DataType(DataType.Text)]
+        public string SubTitle { get; set; }
+
+        [Required]
         [DataType(DataType.MultilineText)]
         public string Content { get; set; }
 
         [Required]
         [DataType(DataType.Text)]
         public string Tags { get; set; }
+
     }
 }
