@@ -37,9 +37,9 @@ namespace Affogato.Models
             get { return _database.GetCollection<Post>(POSTS_COLLECTION_NAME); }
         }
 
-        public IMongoCollection<User> Users
+        public IMongoCollection<ApplicationUser> Users
         {
-            get { return _database.GetCollection<User>(USERS_COLLECTION_NAME); }
+            get { return _database.GetCollection<ApplicationUser>(USERS_COLLECTION_NAME); }
         }
     }
 }
